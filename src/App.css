@@ -32,6 +32,13 @@
   align-items: center;
   list-style: none;
 }
+.nav__links li a:hover{
+  text-decoration: underline #3671E9;
+  text-underline-offset: .5rem;
+}
+.nav__links li a{
+  text-decoration: none;
+}
 .btn--login{
   background: transparent;
   border: none;
@@ -499,7 +506,12 @@ select,input{
   font-size: 2rem;
   font-weight: 500;
 }
-
+.footer__links li a:hover{
+  color:#3671E9;
+}
+.footer__links li a{
+  text-decoration: none;
+}
 .footer__links li:nth-of-type(1) {
   margin-top: 1.5rem;
 }

@@ -21,10 +21,10 @@ const Navbar = () => {
          </div>
          <div className='nav__list'>
             <ul className='nav__links'>
-               <li>Products</li>
-               <li>Features</li>
-               <li>About</li>
-               <li>Contact</li>
+               <li><a href="#">Products</a></li>
+               <li><a href="#">Features</a></li>
+               <li><a href="#">About</a></li>
+               <li><a href="#">Contact</a></li>
             </ul>
             <div className='nav__account'>
                <button type="button" className='btn--login'>Login</button>

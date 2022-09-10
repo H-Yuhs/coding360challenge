@@ -15,19 +15,19 @@ const footer = () => {
             <img src={Logo} alt="logo" />
             <div className='footer__links quick'>
                <h3>Quick Links</h3>
-               <li>Home</li>
-               <li>Products</li>
-               <li>About</li>
-               <li>Features</li>
-               <li>Contact</li>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">Products</a></li>
+               <li><a href="#">About</a></li>
+               <li><a href="#">Features</a></li>
+               <li><a href="#">Contact</a></li>
             </div>
             <div className='footer__links resource'>
                <h3>Resources</h3>
-               <li>Download Whitepapper</li>
-               <li>Smart Token</li>
-               <li> Blockchain Explorer</li>
-               <li>Crypto API</li>
-               <li>Interest</li>
+               <li><a href="#">Download Whitepapper</a></li>
+               <li><a href="#">Smart Token</a></li>
+               <li><a href="#">Blockchain Explorer</a> </li>
+               <li><a href="#">Crypto API</a></li>
+               <li><a href="#">Interest</a></li>
             </div>
 
             <div className='footer__payment'>
